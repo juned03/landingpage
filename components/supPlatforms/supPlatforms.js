@@ -1,3 +1,4 @@
+/* eslint-disable react/jsx-key */
 import * as React from "react";
 import Switch from "@mui/material/Switch";
 import { FaTelegramPlane, FaTwitch, FaDiscord } from "react-icons/fa";
@@ -112,7 +113,7 @@ const supPlatforms = () => {
   ];
   return (
     <>
-      <h1 style={styles.h1}>Suppoerted Platforms</h1>
+      <h1 style={styles.h1}>Supported Platforms</h1>
       {platformData.map((item, index) => {
         return (
           <div className="supPlatforms-container" style={styles.supPlatforms}>
@@ -120,7 +121,7 @@ const supPlatforms = () => {
               return (
                 <div className="platform-container" style={styles.platform}>
                   <div className="switch-container" style={styles.switch}>
-                    <Switch {...label} defaultChecked size="small" />
+                    <Switch {...label} defaultChecked size="small" style={{color:'#5FBA98'}} />
                   </div>
                   <div
                     className="platform-content-container"

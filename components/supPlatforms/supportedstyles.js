@@ -2,25 +2,27 @@ export const styles = {
   h1: { textAlign: "center" },
   platform: {
     width: "12rem",
-    height: "7rem",
+    height: "6rem",
     border: "5px solid #f9f9fa",
-    borderRadius: "20px",
+    borderRadius: "10px",
     backgroundColor: "#ffffff",
-
-    boxShadow: "0px 0px 10px -1px rgba(0,0,0,0.75)",
+    boxShadow: "10px 10px 30px -1px rgba(0, 0, 0, 0.12)",
+    marginBottom: "54px"
   },
   platformContent: {
     display: "flex",
-    alignItems: "center",
-    justifyContent: "center",
+    alignItems: "flex-start",
+    justifyContent: "flex-start",
     margin: "0",
-    padding: "0",
+    paddingLeft: "0.8rem",
+   
   },
   supPlatforms: {
-    padding: "1rem",
+    padding: ".8rem",
     display: "flex",
     justifyContent: "space-around",
     alignItems: "center",
+    
   },
   switch: {
     width: "100%",
@@ -41,5 +43,7 @@ export const styles = {
     marginRight: "5px",
     padding: "0",
   },
-  platformName: { marginLeft: "5px", fontSize: "14px" },
+  platformName: { marginLeft: "5px", fontSize: "14px",
+ marginTop: "-5px",
+},
 };
